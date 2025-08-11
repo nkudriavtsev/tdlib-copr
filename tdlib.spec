@@ -1,10 +1,10 @@
-%global commit      f1b7500310baa496c0b779e4273a3aff0f14f42f
+%global commit      4269f54e16b9cf564efc2db5bcd29743a2eec6ee
 %global shortcommit %(c=%{commit}; echo ${c:0:7})
-%global commit_date 20250421
+%global commit_date 20250806
 %global gitrel      .%{commit_date}.git%{shortcommit}
 
 Name: tdlib
-Version: 1.8.47
+Version: 1.8.52
 Release: 1%{gitrel}%{?dist}
 
 License: BSL-1.0
